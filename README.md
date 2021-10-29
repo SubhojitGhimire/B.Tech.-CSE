@@ -7,7 +7,7 @@
   <br> <b> Degree: </b> B.Tech.
   <br> <b> Batch: </b> 2019-23
   <br> <b> Compiled by: </b> Miegrat Sammri
-  <br> Visit <a href="https://www.cse23.xyz/materials"> CSE'23 Website </a> for Lecture Notes
+  <br> Visit <a href="https://www.cse23.xyz/materials"> CSE'23 Website </a> for Lecture Notes and Videos
 </p>
 <br>
 <h2> <p align='center'> Semester: I & II </p> </h2>
