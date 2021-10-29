@@ -1,0 +1,1 @@
+srand (time (NULL));

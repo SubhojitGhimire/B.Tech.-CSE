@@ -1,0 +1,14 @@
+int music_player();
+int main_menu ();
+int Open_Playlist_Menu (char playlist_name [10][20]);
+int Store_Song ();
+int Delete_Song (int position);
+int Display_Album ();
+int create_playlist (int playlist_no, char playlist_name [10][20]);
+int Add_in_Playlist (int playlist_no);
+int Delete_from_Playlist (int playlist_no, int list_num);
+int Display_Playlist (int playlist_no);
+int play_next (struct PLAYLIST *point);
+int play_prev (struct PLAYLIST *point, int i);
+int ask_user (struct PLAYLIST *point);
+int Play (int playlist_no, int loop);
