@@ -6,7 +6,7 @@
   <br> <b> Branch: </b> Computer Science and Engineering
   <br> <b> Degree: </b> B.Tech.
   <br> <b> Batch: </b> 2019-23
-  <br> <b> Compiled by: </b> Miegrat Sammri
+  <br> <b> Compiled by: </b> Subhojit Ghimire
   <br> Visit <a href="https://www.cse23.xyz/materials"> CSE'23 Website </a> for Lecture Notes and Videos
 </p>
 <br>
