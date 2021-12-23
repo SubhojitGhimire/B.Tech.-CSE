@@ -1,0 +1,6 @@
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q1$ gcc 1912160_lab3_1.c -o run
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q1$ ./run 
+1912160_lab3_1.c    
+1912160_lab3_1.txt  
+run                 
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q1$

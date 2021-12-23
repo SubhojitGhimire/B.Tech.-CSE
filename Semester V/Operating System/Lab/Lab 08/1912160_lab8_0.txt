@@ -1,0 +1,7 @@
+Page_Related
+
+Q.7. Assume that a system has a 32-bit virtual address with a 4-KB page size. Write a C program that is passed a virtual address (in decimal) on the command line and have it output the page number and offset for the given address.
+
+Note : you must have comment(s) line(s) for every statement of your program.
+
+Reference: ch8_prob.8.33_page394_(book)OS_9th_Ed_Silberschartz-Galvin-Gagane

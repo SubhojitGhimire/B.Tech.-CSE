@@ -1,0 +1,14 @@
+Algorithm:
+1. Store path of current working directory using getcwd system call.
+2. Display the current location of the directory.
+3. Change the path of the directory to the parent directory of the current working directory.
+4. Stop.
+5. [Output]: Display location of current working directory and the location after changing directory to its parent directory.
+
+OUTPUT:
+
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q5$ gcc 1912160_lab3_5.c -o run
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q5$ ./run 
+Current Directory Path: /home/subhojit1912160/Documents/CS313 OS/Lab 3/Q5
+Parent Directory Path: /home/subhojit1912160/Documents/CS313 OS/Lab 3
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q5$ 

@@ -1,0 +1,7 @@
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q3$ gcc 1912160_lab3_3.c -o run
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q3$ ./run temp 1912160_lab3_3.c
+	char str[100], c, temp[30];
+							temp[l] = str[k+l];
+						temp[l] = '\0';
+						if (strcmp (temp, argv[1]) == 0) {
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q3$

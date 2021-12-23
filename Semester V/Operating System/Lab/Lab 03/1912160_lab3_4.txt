@@ -1,0 +1,8 @@
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q4$ gcc 1912160_lab3_4.c -o run
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q4$ ./run 1912160_lab3_4.txt
+File Deletion Success
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q4$ ./run 1912160_lab3_4.txt
+1912160_lab3_4.txt: No such file or directory
+gcc 1912160_lab3_4.c -o run
+./run <filename>
+subhojit1912160@grimbook-orcen-15:~/Documents/CS313 OS/Lab 3/Q4$
