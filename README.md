@@ -45,3 +45,12 @@
   <br> 6. Signals and Data Communication (Theory + Lab)
   <br> 7. Theory of Computation (Theory)
 </p>
+<br>
+<h2> <p align='center'> Semester: V </p> </h2>
+<p>
+  <br> 1. Computer Network (Theory + Lab)
+  <br> 2. DBMS (Theory + Lab)
+  <br> 3. Operating System (Theory + Lab)
+  <br> 4. Software Engineering (Theory + Lab)
+  <br> 5. Graph Theory (Theory)
+</p>
