@@ -1,3 +1,5 @@
+# Mates! At least change variable name and graph title and little things like values!
+
 import matplotlib.pyplot as plt 
 import networkx as nx 
 
