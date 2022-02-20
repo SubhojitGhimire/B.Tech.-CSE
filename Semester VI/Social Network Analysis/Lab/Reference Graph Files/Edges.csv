@@ -1,0 +1,15 @@
+Source,Target,Type,Id,Weight,Average Degree
+1,3,Undirected,1,1.0,1.0
+2,10,Undirected,8,1.0,1.0
+3,4,Undirected,2,1.0,1.0
+4,5,Undirected,3,1.0,1.0
+5,10,Undirected,4,1.0,1.0
+8,2,Undirected,7,1.0,1.0
+8,9,Undirected,11,1.0,1.0
+10,1,Undirected,5,1.0,1.0
+10,6,Undirected,10,1.0,1.0
+10,7,Undirected,9,1.0,1.0
+10,8,Undirected,6,1.0,1.0
+10,11,Undirected,12,1.0,1.0
+10,13,Undirected,14,1.0,1.0
+12,9,Undirected,13,1.0,1.0
