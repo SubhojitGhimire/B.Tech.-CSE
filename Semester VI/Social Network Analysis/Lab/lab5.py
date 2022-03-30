@@ -1,5 +1,7 @@
 import networkx as nx
 import time
+import matplotlib.pyplot as plt
+from collections import defaultdict
 
 def modu1(G,N,res):
     m=0
@@ -231,7 +233,7 @@ def WLC(path,sep):
     fichier = open("results.txt", "w")
     for res1 in res:
         for k in res1:
-            fichier.write(str(k))
+            fichier.write(str(k-1))
             fichier.write(' ')
         fichier.write('\n')
     fichier.close()
@@ -239,17 +241,60 @@ def WLC(path,sep):
     m=modu1(G,N,res)
     print("the overlapping modularity is ",m, '\n\n')
 
+def graphPlot (path, title):
+    
+    GG = nx.read_gml (path, label = 'id')
+    community = {}
+    openResult = open ('results.txt', 'r')
+    readLine = openResult.readlines ()
+
+    ii = 0
+    for line in readLine:
+        aa = list (map (int, line.split ()))
+        for xx in range(0, len(aa)):
+            aa [xx] = aa [xx] + 1
+        community [ii] = aa
+        ii = ii + 1
+
+    comDict = defaultdict (lambda: 0)
+    comColour = dict ()
+
+    for ii, com in community.items ():
+        comColour |= {node: ii + 10 for node in com}
+        for node in com:
+            comDict [node] = comDict [node] + 1
+
+    pos = nx.spring_layout (GG, k = 0.2, seed = 4572321)
+
+    overlappedNodes = {node for node, n_comm in comDict.items() if n_comm > 1}
+    nodeColour = [0 if nn in overlappedNodes else comColour [nn] for nn in GG]
+
+    options = {
+        "pos" : pos, 
+        "with_labels" : False, 
+        "node_color" : nodeColour, 
+        "node_size" : 250,
+        "alpha" : 0.2 
+    }
+    plt.figure (figsize = (15, 15))
+    plt.title (title)
+    nx.draw_networkx (GG, **options)
+    plt.show ()
+
 graph = nx.read_gml ('karate.gml', label = 'id') # karate club dataset
 nx.write_edgelist (graph, 'karateedge.txt', delimiter = ',')
 f = 'karateedge.txt'
 WLC(f,',')
+graphPlot ('karate.gml', 'Karate Club')
 
 graph = nx.read_gml ('football.gml', label = 'id') # football club dataset
 nx.write_edgelist (graph, 'footballedge.txt', delimiter = ',')
 f = 'footballedge.txt'
 WLC(f,',')
+graphPlot ('football.gml', 'Football Club')
 
 graph = nx.read_gml ('dolphins.gml', label = 'id') # dolphin social network dataset
 nx.write_edgelist (graph, 'dolphinsedge.txt', delimiter = ',')
 f = 'dolphinsedge.txt'
 WLC(f,',')
+graphPlot ('dolphins.gml', 'Dolphin Network')
