@@ -12,11 +12,11 @@ DO NOT close the terminal/cmd where you ran the set proxy commands. Run your pip
 pip install numpy  
 pip install networkx  
 
-In lab 4 and and lab 7, community package is used. This is not the same as community package inside networkx package (that we will see for LFR benchmark resolve).  
+In lab 4, community package is used. This is not the same as community package inside networkx package (that we will see for LFR benchmark resolve).  
 To have this separate community package installed, run the following:  
 pip install python-louvain  
 
-Lastly, for LFR_Benchmark graph (used in exp 2 and 6), the latest networkx package is missing community_generators.py file. So manually make a .py file named "community_generators.py" and copy paste the python code included in this SNA Lab folder.  
+Lastly, for LFR_Benchmark graph (used in exp 2, 6 and 7), the latest networkx package is missing community_generators.py file. So manually make a .py file named "community_generators.py" and copy paste the python code included in this SNA Lab folder.  
 Make sure the name is "community_generators.py". Also, make sure you are making this .py file in the correct location.   
 Location is: Python Folder -> Lib -> site-packages -> networkx -> algorithms -> community -> make the community_generators.py file here. 
 For example, my location looks something like this: .\Python\Python310\Lib\site-packages\networkx\algorithms\community  
