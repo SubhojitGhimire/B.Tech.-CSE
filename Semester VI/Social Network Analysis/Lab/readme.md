@@ -1,7 +1,7 @@
 Instructions on how to install or use python libraries/dependencies or pip used in some of this project, as well as on proxy protected university's internet:  
 (FOR WINDOWS USERS ONLY)
 
-To install packages using pip, Go to Terminal or CMD and enter following set proxy commands before sueing pip install:  
+To install packages using pip, Go to Terminal or CMD and enter following set proxy commands before running pip install:  
 set http_proxy=172.16.199.40:8080  
 set https_proxy=172.16.199.40:8080  
 
