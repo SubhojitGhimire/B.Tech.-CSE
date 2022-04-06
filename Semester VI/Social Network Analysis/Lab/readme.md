@@ -8,7 +8,7 @@ set https_proxy=172.16.199.40:8080
 This proxy IP address and Port can vary accoring to your proxy setup, or for admin connections, the proxy IP is 172.16.199.20  
 So take care of these little variations.  
 
-DO NOT close the terminal/cmd where you ran the set proxy commands. Write your pip install code after setting proxy. For example,  
+DO NOT close the terminal/cmd where you ran the set proxy commands. Run your pip install code after setting proxy. For example,  
 pip install numpy  
 pip install networkx  
 
