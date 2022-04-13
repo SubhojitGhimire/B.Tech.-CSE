@@ -1,10 +1,5 @@
-# FOR A GRAPH WITH HIGH NUMBER OF NODES, (LIKE KARATE CLUB GRAPH), Salton Index gives error.
-# However, even for graphs with high number of nodes, the other meausres work.
-# The problem is with Salton Index only.
-# Instead of calling lab8Graph.gml, you can make a random graph by your own, but sometimes random graphs give error:
-# ERROR IS LIKE: ValueError: operands could not be broadcast together with shapes (x, ) (y, )
-# In case of such error, keep re-running the porgram. For different graphs, this error is resolved or doens't exist.
-# Again, this error is associated with Salton Index only. Delete the Salton Index part, and there are no errors for other index measures.
+# UPDATED CODE: NO LIMITATION
+# WORKS FOR ALL KARATE CLUB GRAPH, FOOTBALL CLUB GRAPH, DOLPHIN GRAPH, GRAPH WITH LARGE NUMBER OF NODES, ETC.
 
 from turtle import color
 import networkx as nx
@@ -35,14 +30,28 @@ def saltonList (G):
                 var += 1
                 _list += [[]]
     _list.remove ([])
+
+    adjMatrix = [[]]
+    var = 0
+    for ii in range (n):
+        for jj in range (n):
+            if jj not in list [ii]:
+                adjMatrix[var].append (0)
+            else:
+                adjMatrix[var].append (1)
+        var += 1
+        adjMatrix += [[]]
+    adjMatrix.remove ([])
+
     var = 0
     for i in _list:
-        cosineSimilarity = 1 - spatial.distance.cosine (list [i[0]], list [i[1]])
+        cosineSimilarity = 1 - spatial.distance.cosine (adjMatrix [i[0]], adjMatrix [i[1]])
         _list[var].append(cosineSimilarity)
         var += 1
     return _list
     
-G = nx.read_gml ('lab8Graph.gml')
+# G = nx.read_gml ('lab8Graph.gml')
+G = nx.karate_club_graph ()
 
 print ("Salton index")
 preds = saltonList(G)
