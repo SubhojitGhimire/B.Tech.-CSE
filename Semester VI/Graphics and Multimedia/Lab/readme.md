@@ -1,4 +1,4 @@
-# EXPREIMENTS
+# EXPREIMENT LIST
 
 1. Using OpenGL Primitives display a rectangular window placed it in suitable position and draw a rectangle inside the window having red edges.  
 
