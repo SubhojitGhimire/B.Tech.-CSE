@@ -54,3 +54,13 @@
   <br> 4. Software Engineering (Theory + Lab)
   <br> 5. Graph Theory (Theory)
 </p>
+<br>
+<h2> <p align='center'> Semester: VI </p> </h2>
+<p>
+  <br> 1. Principles of Programming Language (Theory)
+  <br> 2. Compiler Design (Theory + Lab)
+  <br> 3. Graphics and Multimedia (Theory + Lab)
+  <br> 4. Social Network Analysis (Theory + Lab)
+  <br> 5. Introduction to Blockchain (Theory)
+  <br> 6. Object Oriented Design (Lab)
+</p>
