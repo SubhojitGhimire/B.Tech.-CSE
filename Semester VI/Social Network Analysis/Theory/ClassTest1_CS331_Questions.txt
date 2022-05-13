@@ -1,0 +1,3 @@
+Q1. Define any five problems of Social Network Analysis in one or two lines as per your understandings from classroom discussion. [5 Marks]
+
+Q2. Considering any two problems from your list in Q1, explain how solution to those with Social  Network Analysis can play a role in epidemic situations as it happened during Corona virus originated from China. [5 Marks]

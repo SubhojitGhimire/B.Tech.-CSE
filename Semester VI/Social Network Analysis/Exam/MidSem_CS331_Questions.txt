@@ -1,0 +1,13 @@
+Total Marks: 20 + (10 Marks Class Test)= 30
+Duration: 50 Minutes+10 Minutes for uploading
+
+
+Q1.  When complex networks are referred as small-world networks? How to quantify small-wordless of a network?  [2+3=5]
+
+Q2.  Consider the acquaintance relationships within yours and your friend X’s family members comprising parents and immediate siblings. Assume X is having only sister Subhadra. Analyze to verify if both the networks are isomorphic to each other or not. [5]
+
+Q3.  Identify the chords from a connected network comprising 7 nodes and 9 edges using Dijkstra’s algorithm. Each edge of the network can have weight value from the range [1, 5] and at most two edges can have the same weight.  [5]
+
+Q4.  Justify the validity of following statement with proper examples:
+
+“Two structurally equivalent nodes in a network imply both are regular equivalent as well.”     [5]
