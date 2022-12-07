@@ -50,17 +50,25 @@
 <p>
   <br> 1. Computer Network (Theory + Lab)
   <br> 2. DBMS (Theory + Lab)
-  <br> 3. Operating System (Theory + Lab)
-  <br> 4. Software Engineering (Theory + Lab)
-  <br> 5. Graph Theory (Theory)
+  <br> 3. Graph Theory (Theory)
+  <br> 4. Operating System (Theory + Lab)
+  <br> 5. Software Engineering (Theory + Lab)
 </p>
 <br>
 <h2> <p align='center'> Semester: VI </p> </h2>
 <p>
-  <br> 1. Principles of Programming Language (Theory)
-  <br> 2. Compiler Design (Theory + Lab)
-  <br> 3. Graphics and Multimedia (Theory + Lab)
-  <br> 4. Social Network Analysis (Theory + Lab)
-  <br> 5. Introduction to Blockchain (Theory)
-  <br> 6. Object Oriented Design (Lab)
+  <br> 1. Compiler Design (Theory + Lab)
+  <br> 2. Graphics and Multimedia (Theory + Lab)
+  <br> 3. Introduction to Blockchain (Theory)
+  <br> 4. Object Oriented Design (Lab)
+  <br> 5. Principles of Programming Language (Theory)
+  <br> 6. Social Network Analysis (Theory + Lab)
+</p>
+<br>
+<h2> <p align='center'> Semester: VII </p> </h2>
+<p>
+  <br> 1. Artificial Intelligence (Theory)
+  <br> 2. Business Management (Theory)
+  <br> 3. Cryptography and Security (Theory)
+  <br> 4. Web Technology (Theory)
 </p>
