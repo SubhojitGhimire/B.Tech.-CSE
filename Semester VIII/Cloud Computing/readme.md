@@ -6,7 +6,7 @@ Q1. (14th April Submission: 5 Marks)
 5. Upload the screenshot of terminals of the WordCount here.
 
 
-Q2. (21st April Submission: 10 Marks)
+Q2. (21st April Submission: 10 Marks)  
 In bioinformatics, k-mers are substrings of length k contained within a biological sequence (https://en.wikipedia.org/wiki/K-mer). K-mer counting is a frequency counting program that counts the frequency of each substring (k-mer) of a DNA sequence.
 
 Write a MapReduce program to count k-mers of a DNA sequence. The k-mers may be 28-mers or 55-mers. You need to post the output k-mers frequency here. Also, post the screenshot of the terminal here.
