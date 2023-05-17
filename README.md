@@ -72,3 +72,10 @@
   <br> 3. Cryptography and Security (Theory)
   <br> 4. Web Technology (Theory)
 </p>
+<br>
+<h2> <p align='center'> Semester: VIII </p> </h2>
+<p>
+  <br> 1. Cloud Computing (Theory)
+  <br> 2. Economics (Theory)
+  <br> 3. Wireless Sensor Network (Theory)
+</p>
